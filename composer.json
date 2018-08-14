@@ -23,7 +23,9 @@
     "wpackagist-plugin/just-wp-variables": "^1.2",
     "wpackagist-plugin/wordpress-popular-posts": "^4.1",
     "wpackagist-plugin/wp-subtitle": "^3.0",
-    "wpackagist-plugin/wp-optimize": "^2.2"
+    "wpackagist-plugin/wp-optimize": "^2.2",
+    "humanmade/s3-uploads": "^2.0",
+    "roots/soil": "^3.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
