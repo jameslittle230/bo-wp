@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "cmd": "rsync -ar /Users/james/Code/bo-wp/ james@159.89.231.230:/var/www/wordpress"
+            }
+        ]
+    }
+}
