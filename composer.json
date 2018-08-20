@@ -16,7 +16,7 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-config": "1.0.0",
-    "wpackagist-plugin/gutenberg": "^3.5",
+    "wpackagist-plugin/gutenberg": "^3.6",
     "wpackagist-plugin/akismet": "^4.0",
     "wpackagist-plugin/advanced-custom-fields": "^5.7",
     "wpackagist-plugin/co-authors-plus": "^3.3",
