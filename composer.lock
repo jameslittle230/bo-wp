@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6b1b3892e8dacaebad4b83b4a073ccc",
+    "content-hash": "44436a649cc56da663e2a8add849dcfc",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.64.11",
+            "version": "3.64.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4f34eafb0da35ecc6ab0dddd4946a233aa03a280"
+                "reference": "22ad993c1ed7a85d660768d30d773babbc7d38bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4f34eafb0da35ecc6ab0dddd4946a233aa03a280",
-                "reference": "4f34eafb0da35ecc6ab0dddd4946a233aa03a280",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/22ad993c1ed7a85d660768d30d773babbc7d38bd",
+                "reference": "22ad993c1ed7a85d660768d30d773babbc7d38bd",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-08-13T21:42:40+00:00"
+            "time": "2018-08-17T20:48:05+00:00"
         },
         {
             "name": "composer/installers",
@@ -423,6 +423,48 @@
                 "wordpress"
             ],
             "time": "2018-03-13T15:10:11+00:00"
+        },
+        {
+            "name": "jameslittle230/co-authors-plus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jameslittle230/Co-Authors-Plus.git",
+                "reference": "7455d8202cab155375c4eda5f08716bfe5205d1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jameslittle230/Co-Authors-Plus/zipball/7455d8202cab155375c4eda5f08716bfe5205d1b",
+                "reference": "7455d8202cab155375c4eda5f08716bfe5205d1b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "d@danielbachhuber.com",
+                    "homepage": "http://danielbachhuber.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Automattic",
+                    "homepage": "http://automattic.com/"
+                }
+            ],
+            "description": "Multiple bylines and Guest Authors for WordPress",
+            "homepage": "http://wordpress.org/plugins/co-authors-plus/",
+            "support": {
+                "issues": "https://github.com/Automattic/Co-Authors-Plus/issues",
+                "source": "https://github.com/Automattic/Co-Authors-Plus",
+                "forum": "http://wordpress.org/support/plugin/co-authors-plus"
+            },
+            "time": "2018-08-15T02:54:08+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -895,15 +937,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.7.1",
+            "version": "5.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.7.1"
+                "reference": "tags/5.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -934,36 +976,16 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
-            "name": "wpackagist-plugin/co-authors-plus",
-            "version": "3.3.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/co-authors-plus/",
-                "reference": "tags/3.3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/co-authors-plus.3.3.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/co-authors-plus/"
-        },
-        {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "3.5.0",
+            "version": "3.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/3.5.0"
+                "reference": "tags/3.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.5.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1032,26 +1054,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-optimize/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-subtitle",
-            "version": "3.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-subtitle/",
-                "reference": "tags/3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-subtitle.3.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-subtitle/"
         }
     ],
     "packages-dev": [
@@ -1061,12 +1063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f834fd02a512672f298ed7c59e44e46621b6423d"
+                "reference": "0abc14e0df387fe74b4b32e0b8647d1639256d38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f834fd02a512672f298ed7c59e44e46621b6423d",
-                "reference": "f834fd02a512672f298ed7c59e44e46621b6423d",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0abc14e0df387fe74b4b32e0b8647d1639256d38",
+                "reference": "0abc14e0df387fe74b4b32e0b8647d1639256d38",
                 "shasum": ""
             },
             "conflict": {
@@ -1203,7 +1205,7 @@
                 "zendframework/zend-validator": ">=2.3,<2.3.6",
                 "zendframework/zend-view": ">=2,<2.2.7|>=2.3,<2.3.1",
                 "zendframework/zend-xmlrpc": ">=2.1,<2.1.6|>=2.2,<2.2.6",
-                "zendframework/zendframework": ">=2,<2.4.11|>=2.5,<2.5.1",
+                "zendframework/zendframework": "<2.5.1",
                 "zendframework/zendframework1": "<1.12.20",
                 "zendframework/zendopenid": ">=2,<2.0.2",
                 "zendframework/zendxml": ">=1,<1.0.1",
@@ -1225,7 +1227,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-08-10T10:05:21+00:00"
+            "time": "2018-08-14T15:39:17+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1282,6 +1284,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "jameslittle230/co-authors-plus": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
