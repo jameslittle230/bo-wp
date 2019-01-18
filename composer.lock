@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfc474e8fedf8e48b0bd969497138888",
+    "content-hash": "cce401167f9528ab28ddb6a6527c5df6",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -435,12 +435,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jameslittle230/Co-Authors-Plus.git",
-                "reference": "9d90e93be478f47617def272a5246257f94fb960"
+                "reference": "bfc66e5f38f375b52085e4e3550f7ebfa428e071"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jameslittle230/Co-Authors-Plus/zipball/9d90e93be478f47617def272a5246257f94fb960",
-                "reference": "9d90e93be478f47617def272a5246257f94fb960",
+                "url": "https://api.github.com/repos/jameslittle230/Co-Authors-Plus/zipball/bfc66e5f38f375b52085e4e3550f7ebfa428e071",
+                "reference": "bfc66e5f38f375b52085e4e3550f7ebfa428e071",
                 "shasum": ""
             },
             "require": {
@@ -469,7 +469,7 @@
                 "source": "https://github.com/Automattic/Co-Authors-Plus",
                 "forum": "http://wordpress.org/support/plugin/co-authors-plus"
             },
-            "time": "2019-01-18T19:31:20+00:00"
+            "time": "2019-01-18T19:41:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -1070,6 +1070,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-gutenberg-blocks",
+            "version": "1.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-gutenberg-blocks/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg-blocks.zip?timestamp=1545400244",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-gutenberg-blocks/"
         },
         {
             "name": "wpackagist-plugin/gutenberg",

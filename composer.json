@@ -20,11 +20,11 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-config": "1.0.0",
-    "wpackagist-plugin/gutenberg": "^4.5",
     "wpackagist-plugin/akismet": "^4.1",
     "wpackagist-plugin/advanced-custom-fields": "^5.7",
     "wpackagist-plugin/wordpress-popular-posts": "^4.2",
     "wpackagist-plugin/wp-optimize": "^2.2",
+    "wpackagist-plugin/disable-gutenberg-blocks": "^1.0",
     "humanmade/s3-uploads": "^2.0",
     "roots/soil": "^3.7",
     "jameslittle230/co-authors-plus": "dev-master"
